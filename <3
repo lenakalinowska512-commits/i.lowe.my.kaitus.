@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=“UTF-8”>
+<title>Dla Ciebie ❤️</title>
+<style>
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 50px;
+}
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: white;
+    color: #ff4b5c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background: #ffe6ea;
+}
+</style>
+</head>
+<body>
+
+<h1>Kocham Cię ❤️</h1>
+<p>Ta strona jest tylko dla Ciebie</p>
+
+<button onclick=“pokaz()”>Kliknij tutaj 💌</button>
+
+<script>
+function pokaz() {
+    alert(“Jesteś najpiękniejszą osobą w moim życiu 💖”);
+}
+</script>
+
+</body>
+</html>
